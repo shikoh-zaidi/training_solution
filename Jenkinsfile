@@ -5,7 +5,7 @@ pipeline {
         IMAGE_NAME = "shikohzaidi/webimg"
         IMAGE_TAG  = "${BUILD_NUMBER}"
         DOCKER_CREDS = credentials('dockerhub-creds')
-        CONTAINER_NAME = webapp
+        CONTAINER_NAME = "webapp"
     }
 
     stages {
