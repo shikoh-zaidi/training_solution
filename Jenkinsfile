@@ -12,7 +12,7 @@ pipeline {
 
         stage('Fetch Code') {
             steps {
-                git url:"https://github.com/shikoh-zaidi/training_solution.git", branch:"main"
+                git url:"https://github.com/shikoh-zaidi/training_solution.git", branch:"master"
             }
         }
 
